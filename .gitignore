@@ -1,0 +1,13 @@
+target/
+.apt_generated
+.project
+.settings
+.classpath
+.factorypath
+.idea
+*.iws
+*.iml
+*.ipr
+
+/.idea
+.misc

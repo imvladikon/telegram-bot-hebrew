@@ -1,0 +1,413 @@
+{
+  "sentences": [
+    {
+      "trans": "בז",
+      "orig": "despise",
+      "backend": 3,
+      "translation_engine_debug_info": [
+        {
+          "model_tracking": {
+            "checkpoint_md5": "6c513765fc94e9e7077907733e8961cc",
+            "launch_doc": "GermanicA_en_afdaislbnosvfyyiiw_2019q2.md"
+          }
+        }
+      ]
+    },
+    {
+      "src_translit": "diˈspīz"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "לִבעוֹט",
+        "לִבזוֹת",
+        "לִמְאוֹס",
+        "לָבוּז",
+        "לִזַלזֵל",
+        "לְנַבֵּל",
+        "לְנָאֵר",
+        "לִנְאוֹץ"
+      ],
+      "entry": [
+        {
+          "word": "לִבעוֹט",
+          "reverse_translation": [
+            "kick",
+            "boot",
+            "trample",
+            "despise"
+          ]
+        },
+        {
+          "word": "לִבזוֹת",
+          "reverse_translation": [
+            "degrade",
+            "despise",
+            "scorn",
+            "abase",
+            "blackguard"
+          ]
+        },
+        {
+          "word": "לִמְאוֹס",
+          "reverse_translation": [
+            "detest",
+            "despise",
+            "reject",
+            "abhor",
+            "hate"
+          ]
+        },
+        {
+          "word": "לָבוּז",
+          "reverse_translation": [
+            "despise",
+            "scorn",
+            "disdain",
+            "contemn",
+            "mock at",
+            "flout"
+          ]
+        },
+        {
+          "word": "לִזַלזֵל",
+          "reverse_translation": [
+            "disparage",
+            "disregard",
+            "look down on",
+            "slight",
+            "talk down",
+            "despise"
+          ]
+        },
+        {
+          "word": "לְנַבֵּל",
+          "reverse_translation": [
+            "cause disgrace",
+            "soil",
+            "bring shame upon",
+            "despise"
+          ]
+        },
+        {
+          "word": "לְנָאֵר",
+          "reverse_translation": [
+            "abuse",
+            "reject",
+            "abhor",
+            "despise"
+          ]
+        },
+        {
+          "word": "לִנְאוֹץ",
+          "reverse_translation": [
+            "despise",
+            "spurn",
+            "abuse",
+            "scorn",
+            "deride",
+            "blaspheme"
+          ]
+        }
+      ],
+      "base_form": "despise",
+      "pos_enum": 2
+    }
+  ],
+  "src": "en",
+  "alternative_translations": [
+    {
+      "src_phrase": "despise",
+      "alternative": [
+        {
+          "word_postproc": "בז",
+          "score": 0,
+          "has_preceding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ולתעב",
+          "score": 0,
+          "has_preceding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "despise",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "en"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "en"
+    ]
+  },
+  "query_inflections": [
+    {
+      "written_form": "despises",
+      "features": {
+        "number": 2,
+        "person": 3,
+        "tense": 5
+      }
+    },
+    {
+      "written_form": "despised",
+      "features": {
+        "tense": 3
+      }
+    },
+    {
+      "written_form": "despised",
+      "features": {
+        "nonfinite_form": 3,
+        "tense": 3
+      }
+    },
+    {
+      "written_form": "despising",
+      "features": {
+        "nonfinite_form": 3,
+        "tense": 5
+      }
+    },
+    {
+      "written_form": "despise",
+      "features": {
+        "number": 2,
+        "tense": 5
+      }
+    },
+    {
+      "written_form": "to despise",
+      "features": {
+        "nonfinite_form": 2
+      }
+    },
+    {
+      "written_form": "despise",
+      "features": {}
+    },
+    {
+      "written_form": "despised",
+      "features": {
+        "number": 2,
+        "person": 3,
+        "tense": 3
+      }
+    },
+    {
+      "written_form": "despise",
+      "features": {
+        "number": 1,
+        "tense": 5
+      }
+    },
+    {
+      "written_form": "despising",
+      "features": {
+        "nonfinite_form": 1
+      }
+    },
+    {
+      "written_form": "despising",
+      "features": {}
+    },
+    {
+      "written_form": "despised",
+      "features": {}
+    }
+  ],
+  "target_inflections": [
+    {
+      "written_form": "בזיו",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזו",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזם",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזיכם",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזיי",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזות",
+      "features": {
+        "gender": 2,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזה",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזת",
+      "features": {
+        "gender": 2,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזיכן",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזך",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזי",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזה",
+      "features": {
+        "gender": 2,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזן",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזכם",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזיה",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזנו",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזכן",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזייך",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בז",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזים",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזיהם",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזיהן",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזינו",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    },
+    {
+      "written_form": "בזי",
+      "features": {
+        "gender": 1,
+        "number": 2
+      }
+    },
+    {
+      "written_form": "בזיך",
+      "features": {
+        "gender": 1,
+        "number": 1
+      }
+    }
+  ]
+}

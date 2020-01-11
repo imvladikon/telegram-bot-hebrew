@@ -1,0 +1,50 @@
+word
+word_nequdot
+binyan
+root
+en
+ru
+infinitive
+time:present, past, future, imperative
+masculine, feminine
+1st, 2nd, 3rd
+singular, plural
+part_of_speech
+
+AP-ms
+AP-fs
+AP-mp
+AP-fp
+PERF-1s
+PERF-1p
+PERF-2ms
+PERF-2fs
+PERF-2mp
+PERF-2fp
+PERF-3ms
+PERF-3fs
+PERF-3p
+IMPF-1s
+IMPF-1p
+IMPF-2ms
+IMPF-2fs
+IMPF-2mp
+IMPF-2fp
+IMPF-3ms
+IMPF-3fs
+IMPF-3mp
+IMPF-3fp
+IMP-2ms
+IMP-2fs
+IMP-2mp
+IMP-2fp
+
+
+menukad
+transcription
+meaning
+
+milog
+
+related_words
+table table-hover dict-table-t

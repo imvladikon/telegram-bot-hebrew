@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/1.0" id="Definitions_10lly41" name="DRD" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="Decision_13nychf" name="word+query">
+    <extensionElements>
+      <biodi:bounds x="82" y="23" width="180" height="80" />
+    </extensionElements>
+    <decisionTable id="decisionTable_1">
+      <input id="input_1">
+        <inputExpression id="inputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="output_1" typeRef="string" />
+    </decisionTable>
+  </decision>
+  <decision id="Decision_0yq9ikh" name="detect language ">
+    <extensionElements>
+      <biodi:bounds x="310" y="25" width="180" height="80" />
+      <biodi:edge source="Decision_13nychf">
+        <biodi:waypoints x="262" y="62" />
+        <biodi:waypoints x="310" y="61" />
+      </biodi:edge>
+    </extensionElements>
+    <informationRequirement>
+      <requiredDecision href="#Decision_13nychf" />
+    </informationRequirement>
+  </decision>
+  <decision id="Decision_16ws8pr" name="another language">
+    <extensionElements>
+      <biodi:bounds x="599" y="27" width="180" height="80" />
+      <biodi:edge source="Decision_0yq9ikh">
+        <biodi:waypoints x="490" y="65" />
+        <biodi:waypoints x="599" y="65" />
+      </biodi:edge>
+    </extensionElements>
+    <informationRequirement>
+      <requiredDecision href="#Decision_0yq9ikh" />
+    </informationRequirement>
+  </decision>
+  <decision id="Decision_1l1z9l3" name="he">
+    <extensionElements>
+      <biodi:bounds x="310" y="171" width="180" height="80" />
+      <biodi:edge source="Decision_0yq9ikh">
+        <biodi:waypoints x="399" y="105" />
+        <biodi:waypoints x="398" y="171" />
+      </biodi:edge>
+      <biodi:edge source="Decision_0c5c05t">
+        <biodi:waypoints x="601" y="211" />
+        <biodi:waypoints x="490" y="214" />
+      </biodi:edge>
+    </extensionElements>
+    <informationRequirement>
+      <requiredDecision href="#Decision_0yq9ikh" />
+    </informationRequirement>
+    <informationRequirement>
+      <requiredDecision href="#Decision_0c5c05t" />
+    </informationRequirement>
+  </decision>
+  <decision id="Decision_0w59ps6" name="inflection service">
+    <extensionElements>
+      <biodi:bounds x="307" y="313" width="180" height="80" />
+      <biodi:edge source="Decision_1l1z9l3">
+        <biodi:waypoints x="404" y="251" />
+        <biodi:waypoints x="410" y="313" />
+      </biodi:edge>
+    </extensionElements>
+    <informationRequirement>
+      <requiredDecision href="#Decision_1l1z9l3" />
+    </informationRequirement>
+  </decision>
+  <decision id="Decision_0c5c05t" name="translation service (direct, fuzzy)">
+    <extensionElements>
+      <biodi:bounds x="601" y="168" width="180" height="80" />
+      <biodi:edge source="Decision_16ws8pr">
+        <biodi:waypoints x="691" y="107" />
+        <biodi:waypoints x="694" y="168" />
+      </biodi:edge>
+    </extensionElements>
+    <informationRequirement>
+      <requiredDecision href="#Decision_16ws8pr" />
+    </informationRequirement>
+  </decision>
+</definitions>
